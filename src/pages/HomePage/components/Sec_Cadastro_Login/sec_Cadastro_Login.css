@@ -1,0 +1,76 @@
+#sec-cadastro-login {
+  padding: 100px 0;
+  gap: 10px;
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+
+    .div-inputs {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 40px;
+
+      .input {
+        padding: 16px 32px;
+        border: 1px solid rgb(147, 197, 147);
+        width: 100%;
+      }
+    }
+
+    .texto {
+      a {
+        color: rgb(147, 197, 147);
+      }
+    }
+  }
+}
+
+.form-form{
+  padding: 32px 0;
+}
+
+.input-user{
+  border-radius: 16px;
+  font-size: 20px;
+  padding: 32px;
+}
+
+.form-error{
+  display: block;
+  color: #ed4337;
+  font-size: 18px;
+  font-weight: 450;
+  margin-top: 5px;
+}
+
+
+.or-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.or-container .line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.or-container .or-text {
+  margin: 0 10px;
+  font-size: 16px;
+  color: #000;
+}
+
+
+@media (max-width: 768px) {
+  .div-inputs {
+    flex-direction: column;
+  }
+}

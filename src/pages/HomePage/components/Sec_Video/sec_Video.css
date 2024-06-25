@@ -1,0 +1,27 @@
+#sec-video {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #acadaf;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+    h2 {
+      color: white;
+    }
+
+    p {
+      color: #333f71;
+      font-size: 20px;
+      text-align: justify;
+    }
+
+    .div-video {
+      aspect-ratio: 16/9;
+      width: 100%;
+    }
+  }
+}

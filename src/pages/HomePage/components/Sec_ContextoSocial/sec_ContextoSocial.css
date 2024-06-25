@@ -1,0 +1,15 @@
+#sec-contextoSocial {
+  padding: 100px 0px 0px 0px;
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #333f71;
+    text-align: justify;
+
+    h2 {
+      color: #333f71;
+      display: block;
+    }
+  }
+}

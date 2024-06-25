@@ -1,0 +1,14 @@
+.div-botao {
+    display: flex;
+    justify-content: center;
+  }
+
+  .botao {
+    display: flex;
+    border-radius: 10px;
+    padding: 8px 16px;
+    background-color: #fe7f0e;
+    color: white;
+    font-weight: 600;
+    margin: 0 auto;
+  }

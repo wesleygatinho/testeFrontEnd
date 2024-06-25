@@ -1,0 +1,78 @@
+footer {
+  padding: 100px 0px 10px 0px;
+  background: linear-gradient(0deg, #39147b, #110229);
+  color: white;
+
+  .content {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+
+    .div-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      gap: 20px;
+      .texto {
+        opacity: 0.8;
+      }
+
+      input {
+        padding: 10px 20px;
+        border-radius: 10px;
+      }
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      a {
+        color: white;
+        opacity: 0.8;
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+    }
+
+    .redes-sociais {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      a {
+        font-size: 20px;
+        color: white;
+        opacity: 0.6;
+      }
+    }
+  }
+
+  .copy {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgba(255, 255, 255, 0.527);
+    padding: 20px 0;
+    gap: 20px;
+    a {
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    .content {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .copy {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  }
+}
