@@ -1,6 +1,7 @@
 import { HomePage } from "./pages/HomePage/HomePage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Dashboard  from "./pages/Dashboard/Dashboard";
+import PaginaNaoEncontrada from "./pages/PaginaNaoEncontrada/index.jsx";
 
 function App() {
    
@@ -11,7 +12,7 @@ function App() {
       <Routes>
         {!logado&&<Route path="/" element={<HomePage />} />}
         {logado &&<Route path="/" element={<Dashboard />} />}
-        <Route path="*" element={<h1>Página não encontrada</h1>} />
+        <Route path="*" element={<PaginaNaoEncontrada/>} />
       </Routes>
     </BrowserRouter>
     </>
