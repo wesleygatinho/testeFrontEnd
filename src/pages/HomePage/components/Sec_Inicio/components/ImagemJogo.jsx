@@ -4,7 +4,7 @@ export const ImagemJogo = () => {
   return (
     <>
       <div className='div-img'>
-      <img src={bgInicio} alt='imagem-jogo' /> 
+      <img className="img-logo" src={bgInicio} alt='imagem-jogo' /> 
       </div>
     </>
   );

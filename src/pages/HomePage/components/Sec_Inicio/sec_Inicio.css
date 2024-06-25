@@ -105,10 +105,36 @@
   #hero-section {
     .content-sec-inicio {
       grid-template-columns: 1fr;
-    }
 
-    .div-img {
-      aspect-ratio: 4/3;
+      .logins{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+      }
     }
+    
+    /* .div-img {
+      aspect-ratio: 4/3;
+    } */
+
+    
   }
+  
+}
+
+@media (max-width: 420px){
+  #hero-section {
+    .content-sec-inicio {
+      
+      .img-logo{
+        width: 100%;
+      }
+    }
+    
+
+    
+  }
+  
+
 }

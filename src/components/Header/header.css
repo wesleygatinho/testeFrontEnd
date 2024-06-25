@@ -46,3 +46,20 @@ header {
     }
   }
 }
+
+
+@media (max-width: 440px){
+  .content-header {
+    nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 16px;
+      text-transform: uppercase;
+
+      a {
+        display: none;
+      }
+    }
+  }
+}
